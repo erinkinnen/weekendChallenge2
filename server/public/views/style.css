@@ -1,0 +1,14 @@
+.answerDiv {
+  border: solid;
+  height: 40px;
+  width: 50%;
+}
+
+.answer {
+  font-size: 100px;
+}
+
+.operatorButtons {
+  height: 100px;
+  width: 300px;
+}
