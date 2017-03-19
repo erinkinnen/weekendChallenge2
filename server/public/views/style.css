@@ -4,10 +4,6 @@
   width: 306px;
 }
 
-#firstValue {
-    text-align: center;
-    color: red;
-}
 .numberOne, .numberTwo,.numberThree,.numberFour,.numberFive,.numberSix,
 .numberSeven,.numberEight,.numberNine,.numberZero {
   height: 30px;

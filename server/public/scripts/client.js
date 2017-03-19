@@ -5,8 +5,8 @@ $(document).ready(function(){
 $(".clear").on("click", function(){
   console.log("clear click success");
 // $("#answer").empty();
-$( '#firstValue' ).val('');
-$( '#secondValue' ).val('');
+$("#firstValue").val('');
+$("#secondValue").val('');
 $(".answer").remove();
 });//end of clear on click
 

@@ -34,7 +34,7 @@ app.post("/values", function(req, res){
   }
 };
 var answer = math();
-          
+
   console.log(answer);
   var finalResult = answer.toString();
   console.log(finalResult);
@@ -42,14 +42,6 @@ var answer = math();
   res.send(finalResult);
   // result.push(answer);
 });
-
-
-// app.post('/', function(req, res){
-//   res.sendFile(path.resolve("server/public/views/index.html"));
-// });
-
-
-
 
 app.listen(port, function(){
   console.log("app.js Listening on port: ", port);
