@@ -7,10 +7,7 @@ $(".clear").on("click", function(){
 // $("#answer").empty();
 $( '#firstValue' ).val('');
 $( '#secondValue' ).val('');
-function removeAnswer() {
-   $("#answer").remove();
-}
-removeAnswer(); 
+$(".answer").remove();
 });//end of clear on click
 
  var equation = {};

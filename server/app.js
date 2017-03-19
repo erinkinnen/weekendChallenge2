@@ -34,18 +34,7 @@ app.post("/values", function(req, res){
   }
 };
 var answer = math();
-          //   var math = function(operator) {
-          //     if (operator = plus) {
-          //     return (parseInt(values.firstValue) + parseInt(values.secondValue));
-          //   } else if (operator = "minus") {
-          //     return (parseInt(values.firstValue) - parseInt(values.secondValue));
-          //   } else if (operator = "multiply") {
-          //     return (parseInt(values.firstValue) * parseInt(values.secondValue));
-          //   } else  if (operator = "divide") {
-          //     return (parseInt(values.firstValue) / parseInt(values.secondValue));
-          //   }
-          // };
-          //   var answer = math();
+          
   console.log(answer);
   var finalResult = answer.toString();
   console.log(finalResult);
