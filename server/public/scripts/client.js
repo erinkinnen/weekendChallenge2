@@ -4,8 +4,13 @@ $(document).ready(function(){
 
 $(".clear").on("click", function(){
   console.log("clear click success");
-$(".answer").empty();
-$(".values").empty();
+// $("#answer").empty();
+$( '#firstValue' ).val('');
+$( '#secondValue' ).val('');
+function removeAnswer() {
+   $("#answer").remove();
+}
+removeAnswer(); 
 });//end of clear on click
 
  var equation = {};
@@ -47,7 +52,7 @@ $(".operatorEquals").on("click", function(){
     success: function(response){
       console.log("client murk");
       console.log(response);
-      $(".answerDiv").append(response);
+      $(".answer").append(response);
     }
   });
 
