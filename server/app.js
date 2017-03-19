@@ -10,11 +10,14 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.post("/values", function(req, res){
   var values= req.body;
   console.log(values);
-  var answer = {};
-  answer.result = (parseInt(values.firstValue) + parseInt(values.secondValue));
+  // var answer = {};
+  // answer.result = (parseInt(values.firstValue) + parseInt(values.secondValue));
+  var answer = (parseInt(values.firstValue) + parseInt(values.secondValue));
   console.log(answer);
+  var finalResult = answer.toString();
+  console.log(finalResult);
 
-  res.sendStatus(200);
+  res.send(finalResult);
   // result.push(answer);
 });
 
